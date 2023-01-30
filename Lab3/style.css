@@ -1,0 +1,259 @@
+/* nav */
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    }
+#menu li {
+    background-color: rgb(0, 251, 255);
+    text-align: center;
+    list-style-type: none;
+    padding: 1em 0;
+    }
+#menu li a{
+    color: rgb(13, 0, 255);
+    text-decoration: none;
+    }
+#menu li:hover {
+    background-color: #ff0887;
+    }
+#menu li:hover a{
+    color: white;
+    }
+#hamburger, .hamburger {
+    display: none;
+    }
+
+
+    /* article */
+    #news header {
+    max-width: 10em;
+    padding: 1em;
+    position: relative;
+    }
+    #news header h1{
+    margin: 0;
+    text-shadow: .2em .2em .2em rgb(0, 255, 13);
+    }
+    #news header a{
+    color: rgb(255, 106, 0);
+    text-decoration: none;
+    }
+    #news img {
+    width: 100%;
+    }
+    #news > article {
+    background-color: white;
+    margin: 1em 1em 1em 0;
+    }
+    #news > article > p{
+    padding: 0 1em;
+    }
+    #news > article > p:first-of-type:fi
+    rst-letter{
+    font-size: 2em;
+    }
+    #news footer {
+    color: white;
+    background-color: #ff5100;
+    padding: 1em;
+    }
+    #news footer a{
+    color: white;
+    text-decoration: none;
+    }
+/* section colors */
+/* #menu li:nth-child(1) {
+    border-top: 5px solid #e1493e;
+    }
+    #menu li:nth-child(2) {
+    border-top: 5px solid #8aba56;
+    }
+    #menu li:nth-child(3) {
+    border-top: 5px solid #5b4282;
+    }
+    #menu li:nth-child(4) {
+    border-top: 5px solid #ff8932;
+    }
+    #menu li:nth-child(5) {
+    border-top: 5px solid #19b6e9;
+    }
+    #menu li:nth-child(6) {
+    border-top: 5px solid #e84c8b;
+    } */
+ 
+    
+    :root {
+        --primary-gray: #00a2ff;
+        --primary-Darkpurple: #00ff8c;
+        --primary-red: #CD0404;
+      
+        --section-red: #FF0032;
+        --section-green: #8aba56;
+        --section-purple: #5b4282;
+        --section-orange: #ff8932;
+        --section-blue: #19b6e9;
+        --section-pink: #e84c8b;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0 auto;
+        width: 60em;
+      }
+      
+      body > header {
+        background: var(--primary-Darkpurple);
+        width: 100%;
+        padding: 1em;
+      }
+      
+      header * {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      h1 {
+        margin: 0;
+      }
+      
+      h2 {
+        margin: 6px 0 0;
+      }
+      
+      #signup a:first-child::after {
+        content: " | ";
+      }
+
+
+
+      /* --------------------------- */
+
+     
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0 auto;
+        width: 60em;
+      }
+      
+      body > header {
+        background: var(--primary-Darkpurple);
+        width: 100%;
+        padding: 1em;
+      }
+      
+
+      /*article */
+      #news header {
+        max-width: 10em;
+        padding: 1em;
+        position: absolute;
+      }
+      
+      #news header h1 {
+        margin: 0;
+        text-shadow: 0.2em 0.2em 0.2em black;
+      }
+      
+      #news header a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      #news img {
+        width: 100%;
+      }
+      
+      #news > article {
+        background-color: white;
+        margin: 1em 1em 1em 0;
+      }
+      
+      #news > article > p {
+        padding: 0 1em;
+      }
+      
+      #news > article > p:first-of-type:first-letter {
+        font-size: 2em;
+      }
+      
+
+      
+      #news footer a {
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid white;
+        padding-bottom: 2px;
+      }
+      
+      #news footer .tags {
+        margin-right: 1em;
+      }
+      
+      #news footer .comments {
+        margin-left: 1em;
+      }
+
+      
+      #news footer .author:before {
+        content: "By ";
+      }
+      
+      /*related */
+      #related {
+        background-color: #1a85b6;
+        padding: 1em;
+      }
+      
+      #related h1 a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      #related p {
+        color: white;
+      }
+      
+      /*footer */
+      body > footer {
+        background-color: var(--primary-gray);
+        color: white;
+        padding: 1em;
+        height: 3em;
+      }
+      
+      body > footer p {
+        margin: 0;
+      }
+      
+      /*fonts */
+        *{
+            font-family: 'Itim', cursive;
+        }
+      
+      p {
+        font-family: 'Itim', cursive;
+        line-height: 1.4em;
+      }
+      
+      header h2 {
+        font-size: 1em;
+      }
+      
+      header a {
+        font-size: 0.8em;
+      }
+      
+      #news header {
+        font-size: 1.5em;
+      }
+
+      
+    
